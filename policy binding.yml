@@ -12,11 +12,7 @@ spec:
         operator: NotIn
         values:
         - default
-        - ns-c4e-dev
         - calico-system
         - kube-system
         - tigera-operator
-        - dataprotection-microsoft
-        - ns-platform-ingress-nginx
-        - ns-platform-external-secrets
-        - cloudability
+        - ingress-nginx
